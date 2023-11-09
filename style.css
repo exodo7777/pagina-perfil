@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.contenedor{
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.card{
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px black rgba(68, 68, 68, 0.1);
+}
+
+.banner{
+    background-image: url(https://www.tuexperto.com/wp-content/uploads/2022/02/17-fondos-de-pantalla-para-pc-de-playas-15-1200x675.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    height: 60px;
+}
+
+.avatar{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.card-body{
+    text-align: center;
+    padding: 35px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre{
+    font-size: 25px;
+    margin: 0 0 5px;
+}
+
+.localidad{
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 0 12px;
+    color: #cacaca;
+}
+
+.nivel{
+    font-size: 15px;
+    display: inline-block;
+    background-color: rgb(85, 85, 241);
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+.card-numero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px 25px;
+    text-align: center;
+}
+
+.titulo-numero{
+    font-size: 12px;
+    color: #cacaca;
+    margin: 0 0 5px;
+}
+
+.numero{
+    font-size: 18px;
+}
+a:link{
+    border: 1px solid #5f20d5;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    background-color: #5f20d5;
+    color: #ffffff;
+}
